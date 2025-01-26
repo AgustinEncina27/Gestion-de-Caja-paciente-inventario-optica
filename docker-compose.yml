@@ -8,9 +8,6 @@ services:
       - "80:80"
     depends_on:
       - backend
-    environment:
-      URL_BACKEND: ${URL_BACKEND}
-      URL_FRONTEND: ${URL_FRONTEND}
 
   backend:
     build:
