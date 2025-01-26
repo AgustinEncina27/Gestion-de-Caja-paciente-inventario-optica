@@ -1,4 +1,2 @@
-import { environment } from "src/environments/environment"; 
-
-export const URL_BACKEND = environment.urlBackend;
-export const URL_FRONTEND = environment.urlFrontend;
+export const URL_BACKEND= 'http://localhost:8080';
+export const URL_FRONTEND= 'http://localhost:80';
