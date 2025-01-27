@@ -26,9 +26,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.springboot.backend.optica.modelo.Movimiento;
 import com.springboot.backend.optica.service.IMovimientoService;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api/movimientos")
-@CrossOrigin(origins = {"http://localhost:4200"})
 public class MovimientoController {
 
 	@Autowired

@@ -21,7 +21,7 @@ import com.springboot.backend.optica.service.IDetalleMovimientoService;
 
 @RestController
 @RequestMapping("/api/detalles-movimiento")
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin
 public class DetalleMovimientoController {
 
     @Autowired
